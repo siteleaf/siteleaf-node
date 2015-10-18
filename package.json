@@ -1,0 +1,33 @@
+{
+  "name": "siteleaf-api",
+  "description": "Siteleaf API library",
+  "version": "0.1.0",
+  "author": {
+    "name": "Siteleaf"
+  },
+  "maintainers": [
+    {
+      "name": "Siteleaf",
+      "email": "support@siteleaf.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/siteleaf/siteleaf-node.git"
+  },
+  "main": "./lib/siteleaf",
+  "license": "MIT",
+  "keywords": [
+    "api",
+    "siteleaf",
+    "cms"
+  ],
+  "bugs": {
+    "url": "https://github.com/siteleaf/siteleaf-node/issues"
+  },
+  "homepage": "https://github.com/siteleaf/siteleaf-node#readme",
+  "directories": {},
+  "dependencies": {
+    "https": "^1.0.0"
+  }
+}
