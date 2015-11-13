@@ -1,6 +1,6 @@
 {
-  "name": "siteleaf-api",
-  "description": "Siteleaf API library",
+  "name": "siteleaf",
+  "description": "Siteleaf v2 API library",
   "version": "0.1.0",
   "author": {
     "name": "Siteleaf"
