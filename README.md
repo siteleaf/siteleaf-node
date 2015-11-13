@@ -1,7 +1,7 @@
 # Installation
 
 ```
-npm install siteleaf-node
+npm install siteleaf
 ```
 
 ```
