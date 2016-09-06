@@ -33,7 +33,7 @@ GET requests:
 
 ```js
 client.request('sites/' + config.site_id + '/pages', {
-  qs: { limit: 9999 }
+  qs: { per_page: 50 }
 }).then(function (pages) {
   console.log(pages);
 });
