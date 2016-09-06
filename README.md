@@ -32,7 +32,7 @@ A generic method for making Siteleaf API requests:
 GET requests:
 
 ```js
-client.request('sites/' + config.site_id + '/pages', {
+client.request(`sites/${config.site_id}/pages`, {
   qs: { per_page: 50 }
 }).then(function (pages) {
   console.log(pages);
@@ -42,7 +42,7 @@ client.request('sites/' + config.site_id + '/pages', {
 POST/PUT requests:
 
 ```js
-client.request('sites/' + config.site_id + '/pages', {
+client.request(`sites/${config.site_id}/pages`, {
   method: 'POST',
   body: {
     body: "Hello world",
@@ -60,5 +60,5 @@ client.request('sites/' + config.site_id + '/pages', {
 DELETE requests:
 
 ```js
-client.request('pages/' + page.id, { method: 'DELETE' });
+client.request(`pages/${page.id}`, { method: 'DELETE' });
 ```
